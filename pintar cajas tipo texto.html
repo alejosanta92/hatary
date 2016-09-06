@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+</head>
+    <script type="text/javasCript">
+     
+        function iniciar()
+        {
+           // document.getElementById("boton").onclick=colorear;
+            var inputs=document.getElementsByTagName("input");
+            inputs[0].onclick=colorear;
+            inputs[1].onclick=colorear;
+            inputs[2].onclick=colorear;
+            inputs[3].onclick=colorear;
+            inputs[4].onclick=colorear;
+            
+        }
+        
+        function colorear()
+        {
+           
+                    if(this.type=="text")
+                        {
+                            this.style.backgroundColor="yellow";
+                             
+                        }
+                
+            
+        }
+        window.onload=iniciar;
+    </script>
+<body>
+
+<form>
+    <input type="button" value="botones"><br>
+    <input type="text" value="textos"><br>
+    <input type="button" value="botones"><br>
+    <input type="email" value="correo"><br>
+     <input type="text" value="textos">
+</form>
+
+</body>
+</html>
