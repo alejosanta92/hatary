@@ -1,2 +1,4 @@
 # hatary
-contendra la programacion de todos mis compañeros
+contendra la programacion de todos mis compañeros.
+
+
